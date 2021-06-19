@@ -1,0 +1,27 @@
+#navbar{
+    flex-direction: column;
+}
+
+.services {
+    flex-direction: column;
+}
+#clientssection{
+    height: 435px;
+}
+#clients{
+    flex-wrap: wrap;
+}
+#clientssection img{
+    width: 135px;
+    height: 135px;
+    padding:20px;
+}
+#contact{
+    flex-wrap: wrap;
+}
+#mybody h1{
+    font-size: 1.2rem;
+}
+#mybody p{
+    font-size: 1rem;
+}

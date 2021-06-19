@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grids</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:repeat(5,auto);
+        }
+        .item{
+            
+            background-color: brown;
+            margin: 20px;
+        }
+        @media (max-width:900px) {
+            .container{
+                display: grid;
+                grid-template-columns: repeat(6,auto);
+            }
+            .item{
+            
+            background-color: brown;
+            margin: 20px;
+            }
+                    
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item">This is item-1</div>
+    <div class="item">This is item-2</div>
+    <div class="item">This is item-3</div>
+    <div class="item">This is item-4</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-5</div>
+    </div>
+</body>
+</html>
